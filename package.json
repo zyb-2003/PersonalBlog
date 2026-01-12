@@ -1,0 +1,44 @@
+{
+    "name": "personal-blog",
+    "version": "1.0.0",
+    "description": "现代化的社交化技术博客平台",
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "dev": "vite",
+        "build": "vite build",
+        "preview": "vite preview",
+        "test": "jest",
+        "lint": "eslint src --ext .js --fix",
+        "format": "prettier --write \"src/**/*.{js,css,md,html,json}\"",
+        "prepare": "husky install"
+    },
+    "dependencies": {
+        "axios": "^1.5.0",
+        "dayjs": "^1.11.9",
+        "marked": "^9.1.6",
+        "prismjs": "^1.29.0",
+        "tiptap": "^2.1.6",
+        "@tiptap/starter-kit": "^2.1.6",
+        "chart.js": "^4.4.0",
+        "lodash-es": "^4.17.21"
+    },
+    "devDependencies": {
+        "vite": "^4.4.9",
+        "eslint": "^8.49.0",
+        "prettier": "^3.0.3",
+        "husky": "^8.0.3",
+        "lint-staged": "^14.0.1",
+        "jest": "^29.7.0",
+        "@testing-library/jest-dom": "^6.1.4",
+        "autoprefixer": "^10.4.15",
+        "postcss": "^8.4.29",
+        "typescript": "^5.2.2"
+    },
+    "author": "ZYB",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/zyb-2003/PersonalBlog.git"
+    }
+}
